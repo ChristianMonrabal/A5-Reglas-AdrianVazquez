@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=League+Spartan:wght@100&family=Nanum+Gothic&family=Quicksand:wght@300&family=Raleway:wght@100&display=swap');
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#header {
+    height: 100vh;
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#header h1 {
+    color: red;
+    padding: 0 20%;
+    font-size: 50px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.urban {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    color: blue;
+}
+
+.argentina {
+    color: white;
+    background-color: aqua;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.chile {
+    color: red;
+    background-color: blue;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.españa {
+    color: yellow;
+    background-color: red;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.mexico {
+    color: white;
+    background-color: green;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.peru {
+    color: white;
+    background-color: red;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.formato {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+img {
+    width: 50%;
+}
+
+#footer {
+    background-color: black;
+    color: grey;
+    text-align: center;
+    padding: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        padding: 1%;
+        font-size: 40px;
+    }
+    #main {
+        padding: 1%;
+    }
+    #main p {
+        font-size: 15%;
+    }
+    #main p {
+        font-size: 15px;
+    }
+    #main h1 {
+        font-size: 35px;
+    }
+}
